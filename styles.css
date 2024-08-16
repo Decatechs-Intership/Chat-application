@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, sans-serif; /* Assurez-vous que la police est la même partout */
+    font-size: 14px; /* Ajustez selon vos préférences */
+    line-height: 1.5; /* Contrôle la hauteur de ligne */
+    box-sizing: border-box;
+}
+
+.vh-100 {
+    min-height: 100vh; /* Assurez une hauteur minimale de 100% de la hauteur de la fenêtre */
+}
+
+.w-400 {
+    width: 400px; /* Définit la largeur à 400 pixels */
+}
+
+.fs-xs {
+    font-size: 1rem; /* Définit la taille de la police à 1rem */
+}
+
+.w-10 {
+    width: 10%; /* Définit la largeur à 10% */
+}
+
+a {
+    text-decoration: none; /* Supprime la décoration de texte pour les liens */
+}
+
+.chat-box {
+    overflow-y: auto; /* Ajoute un défilement vertical si le contenu dépasse */
+    overflow: auto; /* Ajoute un défilement si le contenu dépasse dans les deux directions */
+    max-height: 50vh !important; /* Limite la hauteur maximale de la boîte de chat à 50% de la hauteur de la fenêtre */
+}
+
+.fs-big {
+    font-size: 5rem !important; /* Définit la taille de la police à 5rem avec une importance élevée */
+}
+
+.w-15 {
+    width: 15%; /* Définit la largeur à 15% */
+}
+
+.fs-sm {
+    font-size: 1.4rem; /* Définit la taille de la police à 1.4rem */
+}
+
+small {
+    color: #bbb; /* Définit la couleur du texte à une nuance de gris clair */
+    font-size: 0.7rem; /* Définit la taille de la police à 0.7rem */
+    text-align: right; /* Aligne le texte à droite */
+}
+
+.rtext {
+    width: 65%; /* Définit la largeur à 65% */
+    background: #f8f9fa; /* Définit la couleur de fond */
+    color: #444; /* Définit la couleur du texte */
+    word-wrap: break-word; /* Permet de couper les mots pour qu'ils s'adaptent à la largeur du conteneur */
+    word-break: break-word; /* Ajouté pour garantir la coupure des mots longs */
+    max-width: 80%; /* Limite la largeur du message pour éviter qu'il occupe toute la largeur de l'écran */
+}
+
+.ltext {
+    width: 65%; /* Définit la largeur à 65% */
+    background: #3289c8; /* Définit la couleur de fond */
+    color: #fff; /* Définit la couleur du texte */
+    word-wrap: break-word; /* Permet de couper les mots pour qu'ils s'adaptent à la largeur du conteneur */
+    word-break: break-word; /* Ajouté pour garantir la coupure des mots longs */
+    max-width: 80%; /* Limite la largeur du message pour éviter qu'il occupe toute la largeur de l'écran */
+}
+
+strong {
+    display: block; /* Définit l'élément comme un bloc */
+}
+
+/* largeur de la scrollbar */
+*::-webkit-scrollbar {
+    width: 3px; /* Définit la largeur de la scrollbar à 3 pixels */
+}
+
+/* Fond de la scrollbar */
+*::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Définit la couleur de fond de la piste de la scrollbar */
+}
+
+/* Poignée de la scrollbar */
+*::-webkit-scrollbar-thumb {
+    background: #aaa; /* Définit la couleur de la poignée de la scrollbar */
+}
+
+/* Poignée de la scrollbar au survol */
+*::-webkit-scrollbar-thumb:hover {
+    background: #3289c8; /* Change la couleur de la poignée au survol */
+}
+
+/* Style de base pour le textarea */
+.auto-resize {
+    resize: none; /* Empêche le redimensionnement manuel */
+    overflow: hidden; /* Cache la scrollbar */
+    min-height: 18px; /* Hauteur par défaut pour correspondre à WhatsApp */
+    max-height: 150px; /* Limite la hauteur maximale */
+    padding: 10px; /* Ajoute un espacement intérieur de 10 pixels */
+    line-height: 18px; /* Assurez-vous que la hauteur de ligne est bien définie */
+}
